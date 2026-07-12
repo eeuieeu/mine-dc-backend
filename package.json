@@ -1,0 +1,19 @@
+{
+  "name": "mine-dc-evaluator-backend",
+  "version": "1.0.0",
+  "description": "폐광산 데이터센터 적합성 평가 - 공공데이터 자동조회 백엔드",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "xml2js": "^0.6.2",
+    "node-cache": "^5.1.2"
+  }
+}
